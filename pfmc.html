@@ -1,0 +1,21 @@
+<head>
+  <title>pfmc</title>
+</head>
+
+<body>
+  {{> nav}}
+  {{> main}}
+</body>
+
+<template name="main">
+  <div id="welcome">
+    <h1>Jesus</h1>
+    <h1 class="i">is<h1>
+    <h1>{{jesus}}</h1>
+</template>
+
+<template name="nav">
+  {{#each items}}
+  <a href="{{link}}">{{name}}</a>
+  {{/each}}
+</template>
