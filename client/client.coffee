@@ -8,9 +8,9 @@ Template.nav.items =
 
 Template.main.jesus = ->
   choices = ["Love", "Life", "Hope", "Good", "King"]
-  choices[Math.floor((Math.random() * choices.length))];
+  choices[Math.floor((Math.random() * choices.length))]
 
-Template.hello.events
-  'click input': ->
-    if typeof console != 'undefined'
-      console.log "You pressed the button!"
+#Template.hello.events
+#  'click input': ->
+#    if typeof console != 'undefined'
+#      console.log "You pressed the button!"
