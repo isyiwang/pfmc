@@ -1,5 +1,11 @@
 <template name="nav">
-  {{#each items}}
-  <a href="{{link}}">{{name}}</a>
-  {{/each}}
+  <div class="navbar navbar-fixed-top">
+    <ul id="links" class="nav">
+      {{#each items}}
+      <li>
+        <a href="{{link}}">{{name}}</a>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
 </template>

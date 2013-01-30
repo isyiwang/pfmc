@@ -1,0 +1,19 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "master",
+    "commit": "4d98d8cb4e5a95e9e98953f44c872c9332a042a3"
+  },
+  "dependencies": {
+    "basePackages": {
+      "bootstrap.less": {}
+    },
+    "packages": {
+      "bootstrap.less": {
+        "git": "https://github.com/lvbreda/meteor_bootstrapless",
+        "tag": "v2.1.0",
+        "commit": "05dab8a4f07ef0f457fd4af4ea897c9d72129a2b"
+      }
+    }
+  }
+}
