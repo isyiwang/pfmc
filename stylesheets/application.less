@@ -1,15 +1,40 @@
 @import "bootstrap.less";
 
+@light-gray: #dddddd;
+@gray: #999999;
+@black: #333333;
+@off-white: #fdfdfd;
+
 * {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif; font-size: 16px;
 }
 
 body {
   padding-top: 40px;
+  background-color: @off-white;
+}
+
+.section {
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 3em;
+    &:before {
+      display: block;
+      content: " ";
+      margin-top: -75px;
+      height: 75px;
+      visibility: hidden;
+    }
+  }
+
+  h3 { font-weight: 200; }
 }
 
 #welcome {
-  margin: 100px 0px;
+  margin: 200px 0px;
   text-transform: uppercase;
   text-align: center;
   h1 {
@@ -28,14 +53,5 @@ body {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-weight: 200;
-  }
-}
-
-.navbar {
-  #links {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.5em;
-    float: right;
   }
 }
