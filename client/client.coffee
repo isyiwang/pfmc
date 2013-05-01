@@ -1,6 +1,7 @@
 Template.nav.items =
   [
     {'name': 'Services', 'link': '/#services'}
+    {'name': 'Map', 'link': '/#map'}
     {'name': 'Pastors', 'link': '/#pastors'}
     {'name': 'Sermons', 'link': '/#sermons'}
     {'name': 'About', 'link': '/#about'}
